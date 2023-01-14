@@ -5,6 +5,8 @@ import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 
+// Added for dev branch (pull request)
+
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
